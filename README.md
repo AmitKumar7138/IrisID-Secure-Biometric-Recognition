@@ -1,6 +1,5 @@
 # Iris_detection_and_recognition
 Detection and Recognition of human Iris using YOLOv8 and Siamese Network
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/7CHtmVPJ)
 # Final Project Code
 
 **Due: Wednesday, April 26 @ 11:59pm**
