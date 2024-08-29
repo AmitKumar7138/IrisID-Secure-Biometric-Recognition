@@ -1,11 +1,7 @@
-# Iris_detection_and_recognition
+# IrisID-Secure-Biometric-Recognition
 Detection and Recognition of human Iris using YOLOv8 and Siamese Network
-# Final Project Code
 
-**Due: Wednesday, April 26 @ 11:59pm**
-
-Find the complete [rubric](https://ufl.instructure.com/courses/469792/assignments/5548186) in the Canvas assignment.
-## About the project
+## About the "IrisID-Secure-Biometric-Recognition"
 In this project, we propose a system for human iris detection and recognition using YOLOv8 object detection and Siamese neural network. We obtained a dataset of human eyes from Roboflow, which includes positive and negative samples. We train a YOLOv8 model on this dataset to detect human irises in images and extract the coordinates of the bounding boxes as outputs. We then use OpenCV to crop the iris regions from the original images based on the obtained bounding box coordinates. Further, we apply image sharpening, brightness enhancement, and noise removal techniques to the cropped iris images. The preprocessed iris images are saved and used as inputs for a Siamese neural network. The Siamese network is trained on this dataset to learn a similarity metric for iris recognition, using the cropped iris images from the positive and negative samples. The proposed system aims to achieve accurate human iris detection and recognition for various applications, such as biometric authentication and surveillance.
 
 ![image](https://user-images.githubusercontent.com/112103803/234730842-d3cfd9c8-7a7a-444c-bd77-be0c556969b0.png)
